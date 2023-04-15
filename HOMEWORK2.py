@@ -5,5 +5,6 @@ print(dict.get(int(x)))
 
 print(dict.keys())
 
-for i in range(1,6):
-    print(i,dict.get(i))
+for i,j in dict.items():
+    print (i,j)
+    #print(i,dict.get(i))
